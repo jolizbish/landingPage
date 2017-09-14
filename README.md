@@ -5,10 +5,10 @@ The focus is on accessibility, cross-browser support, and page load speed.
 
 Required:
 ---------
- - it should work and look the same (as much as possible) in most modern browsers and devices (e.g. iPhone)
- - main background may change color (e.g. become green instead of blue)
- - "Even more savings" may be changed to a different copy
- - Form validation: not empty name, valid phone and email
+ [ ] it should work and look the same (as much as possible) in most modern browsers and devices (e.g. iPhone)
+ [x] main background may change color (e.g. become green instead of blue)
+ [x] "Even more savings" may be changed to a different copy <--- I don't see this on here?
+ [ ] Form validation: not empty name, valid phone and email
 
 Optional:
 ---------
@@ -27,4 +27,5 @@ Send back the following:
 - Zip and/or HTML of your project.  Github link is also acceptable.
 - Time it took you to complete this project. 8:40PM 9/13/17 start
 - What tripped you up the most when completing this project?
+--> gradient background & the text overlay on the border of the advertisement div.
 - Any final thoughts or comments.
