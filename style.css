@@ -1,11 +1,7 @@
-/*body {*/
-/*  background: rgba(220, 246, 239, 1);*/
-/*}*/
-
-.upper-body {
+#upper-body {
   background: linear-gradient(to bottom, white, rgba(220, 246, 239, 1));
   display: block;
-
+  padding-bottom: 10px;
 }
 
 h4 {
@@ -16,21 +12,12 @@ h4 {
   text-align: center;
   color: white;
   background-color: #5e5e5e;
+  font-family: Helvetica, Sans-Serif;
+  font-size: 13px;
 }
 
 h4:hover {
   color: #00b0b2;
-}
-
-/* I couldn't tell if there was actually supposed to be a hover property on
-this particular element... when I opened the file in Sketch, it looked like that
-have been designed, so I added it just in case. */
-
-h5 {
-  font-size: 12px;
-  margin-top: 4px;
-  margin-bottom: 8px;
-  color: #5e5e5e;
 }
 
 form {
@@ -41,22 +28,10 @@ form {
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   background-color: white;
 }
 
-#border-text {
-  font-size: 11px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -3%;
-  background-color: #dcf6ef;
-  display: block;
-  text-align: center;
-}
-
-.button {
+button {
   color: white;
   background-color: orange;
   height: 36px;
@@ -84,36 +59,35 @@ input:valid {
   background-color: #DCF6EF;
 }
 
-.lower-body {
+#lower-body {
   background: rgba(220, 246, 239, 1);
   display: block;
-  margin-top: 20px;
+  padding-top: 10px;
+  height: 400px;
 }
 
-.copy {
+#copy {
   width: 275px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  border: solid #739459 1px;
+  margin-top: 10px;
+  border: solid #7ab443 1px;
 }
 
-#copy-text {
- font-size: 10px;
- margin-top: 0px;
- padding-bottom: 40px;
- color: #5e5e5e;
+#border-text {
+  font-size: 11px;
+  font-family: Helvetica, Sans-Serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+  background-color: #dcf6ef;
+  display: block;
+  text-align: center;
 }
 
-#ad {
-  font-size: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #739459;
-}
-
-.inner-copy {
+#inner-copy {
   background-color: rgba(255,255,255, 0.6);
   margin-left: 15px;
   margin-right: 15px;
@@ -121,4 +95,28 @@ input:valid {
   padding-left: 15px;
   padding-top: 10px;
   margin-bottom: 10px;
+  font-family: Helvetica, Sans-Serif;
+}
+
+#copy-title {
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  color: #5e5e5e;
+}
+
+#copy-text {
+ font-size: 10px;
+ margin-top: 0px;
+ padding-bottom: 40px;
+ color: #5e5e5e;
+ font-family: Helvetica, Sans-Serif;
+}
+
+#ad {
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #7ab443;
+  font-family: Helvetica, Sans-Serif;
 }
