@@ -17,3 +17,60 @@ function checkEmail(string) {
     return string;
   }
 }
+
+function getFirstName(string) {
+  if (string.includes(' ')) {
+    return string.split(' ')[0];
+  } else {
+    alert('Please enter your first and last name.');
+    return;
+  }
+}
+
+function getLastName(string) {
+  if (string.includes(' ')) {
+    return string.split(' ')[1];
+  } else {
+    alert('Please enter your first and last name.');
+    return;
+  }
+}
+
+$(document).ready(function(e) {
+
+  $("form").submit(function(e) {
+
+      e.preventDefault();
+
+      var formData;
+
+      var first = getFirstName(this['0']['value']);
+      var last = getLastName(this['0']['value']);
+      var phone = checkPhone(this['1']['value']);
+      var email = checkEmail(this['2']['value']);
+
+      if (first && last && phone && email) {
+        formData = JSON.stringify({
+          FormVO:{
+            firstName: first,
+            lastName: last,
+            cellPhone: phone,
+            email: email
+          }
+        });
+
+        console.log('formData: ', formData);
+
+        $.ajax({
+          url: 'https://formsws-hilstaging-com-k0mfqqpppw0s.runscope.net/solar',
+          type: 'POST',
+          data: formData,
+          success: function(response){
+            console.log('successful response: ', response);
+          }
+        });
+      } else {
+        console.log('incomplete form');
+      }
+  });
+})
