@@ -5,15 +5,15 @@ The focus is on accessibility, cross-browser support, and page load speed.
 
 Required:
 ---------
-  [x] it should work and look the same (as much as possible) in most modern browsers and devices (e.g. iPhone)
-  [x] main background may change color (e.g. become green instead of blue)
-  [x] "Even more savings" may be changed to a different copy <--- I don't see this on here?
-  [x] Form validation: not empty name, valid phone and email
+  - [x] it should work and look the same (as much as possible) in most modern browsers and devices (e.g. iPhone)
+  - [x] main background may change color (e.g. become green instead of blue)
+  - [x] "Even more savings" may be changed to a different copy <--- I don't see this on here?
+  - [x] Form validation: not empty name, valid phone and email
 
 Optional:
 ---------
-  [x] additional form validation and enhancements of your choice
- - submit form content via ajax post to "https://formsws-hilstaging-com-k0mfqqpppw0s.runscope.net/solar".    Assume a valid 200 if you don't get one. <-- almost done with this!
+  - [x] additional form validation and enhancements of your choice
+ - [ ] submit form content via ajax post to "https://formsws-hilstaging-com-k0mfqqpppw0s.runscope.net/solar".    Assume a valid 200 if you don't get one. <-- almost done with this!
 
 Optional:
 ---------
