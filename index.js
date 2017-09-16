@@ -28,12 +28,7 @@ function getFirstName(string) {
 }
 
 function getLastName(string) {
-  if (string.includes(' ')) {
-    return string.split(' ')[1];
-  } else {
-    alert('Please enter your first and last name.');
-    return;
-  }
+  return string.split(' ')[1];
 }
 
 $(document).ready(function(e) {
