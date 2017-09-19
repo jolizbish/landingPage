@@ -1,5 +1,4 @@
-var $ = require("jquery");
-
+// Input Validation helper functions
 function checkPhone(string) {
   var number = string.split('').filter((char) => !isNaN(parseInt(char)));
   if (number.length < 10 || number.length > 10) {
@@ -33,7 +32,6 @@ function getLastName(string) {
 }
 
 
-
 $(document).ready(function(e) {
 
   $("form").submit(function(e) {
@@ -48,6 +46,7 @@ $(document).ready(function(e) {
       var email = checkEmail($('#email').val());
 
       if (first && last && phone && email) {
+        // if user data is valid, assign to formData and submit ajax request (callback)
         formData = {
           FormVO:{
             firstName: first,
@@ -69,6 +68,7 @@ $(document).ready(function(e) {
           }
         });
       } else {
+        // if user data invalid, do not submit request with incomplete data.
         console.log('incomplete form')
       }
   });
