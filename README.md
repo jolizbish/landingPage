@@ -39,7 +39,7 @@ Things still to do (added 10/6):
 - [x] overriding browser css (normalize css)
 - [x] no breaks after inputs in html page, padding left, *right*, top,
 - [?] use margins & paddings properly
-- [ ] research border break issues— can’t predict color depending on size of window.
+- [x] research border break issues— can’t predict color depending on size of window.
 - [ ] mobile vs desktop, diff browsers
 - [ ] google input css iphone, ios
 

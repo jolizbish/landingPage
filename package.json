@@ -1,0 +1,22 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "Attached is a mockup of a landing page you need to convert to HTML. The focus is on accessibility, cross-browser support, and page load speed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolizbish/landingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolizbish/landingPage/issues"
+  },
+  "homepage": "https://github.com/jolizbish/landingPage#readme",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}
