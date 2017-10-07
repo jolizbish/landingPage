@@ -1,24 +1,14 @@
-#upper-body {
-  background: linear-gradient(to bottom, white, rgba(220, 246, 239, 1));
-  padding-bottom: 10px;
+html body{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: 0;
 }
-
-#form-header {
-  display: block;
-  padding: 15px 15px 15px 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-  color: white;
-  background-color: #5e5e5e;
-  font-family: Arial, Sans-Serif;
-  font-size: 18px;
-}
-
-h4:hover {
-  color: #00b0b2;
+body {
+  font-family: Arial;
+  color: #545253;
+  background-color: #def9fc;
 }
 
 form {
@@ -32,139 +22,122 @@ form {
   background-color: white;
 }
 
-button {
-  color: white;
-  background-color: #F6931D;
-  height: 48px;
-  width: 201px;
-  padding: 10px 20px 10px 20px;
-  border-width: 0px;
-  border-radius: 24px;
-  font-style: Arial;
-  font-size: 16px;
-  font-weight: bold;
-  display: block;
-  margin-left: auto;
-  margin-bottom: 30px;
-  margin-right: auto;
-}
-
 input {
-  display: block;
+  width: 308px;
+  height: 48px;
   font-size: 16px;
   font-family: Arial;
   color: #747375;
   border-radius: 4px;
   border-width: 1px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  width: 338px;
-  height: 50px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 15px 0px 15px;
   box-shadow: 0px 1px 2px 0px #D8D8D8;
-}
-
-.name {
-  margin-top: 30px;
-  margin-bottom: 0px;
-}
-
-.phone {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.email {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 input:valid {
   background-color: #DCF6EF;
 }
 
-#lower-body {
-  background-color: rgba(220, 246, 239, 1);
-  padding-top: 10px;
-  height: 400px;
+button {
+  color: white;
+  background-color: #F6931D;
+  height: 48px;
+  width: 201px;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 68px 0px 69px;
+  border-width: 0px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
 }
 
-#copy {
+.background-pattern {
+  background:url('BG.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: repeat-x;
+  margin: 0px;
+}
+
+.form-header {
+  display: block;
+  padding: 14px 0px 18px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 24px;
+  background-color: #5e5e5e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputs {
+  padding: 29px 33px 27px 33px;
+}
+
+.copy {
   width: 404px;
   height: 235px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16px;
-  border: solid #A0BC57 2px;
+  margin-top: 38px;
+  background-image: url('Rectangle 2.png');
+  /*border: solid #A0BC57 2px;*/
 }
 
-#border-text {
+
+.border-text {
   font-size: 15px;
-  font-family: Arial, Sans-Serif;
   font-weight: bold;
-  color: #545253;
-  width: 240px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   top: -8px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #dcf6ef;
-  /*display: block;*/
   text-align: center;
 }
 
-#inner-copy {
+.inner-copy {
+  position: fixed;
   background-color: #FFFFFF;
   opacity: .75;
-  height: 203px;
-  width: 363px;
-  margin-left: 20px;
-  /*margin-right: 20px;*/
-  font-family: Arial, Sans-Serif;
+  height: 191px;
+  width: 322px;
+  margin: 0px 21px 15px 20px;
+  padding: 12px 20px 0px 21px;
   font-size: 14px;
-  color: #545253;
 }
 
-#copy-title {
+.copy-title {
   font-size: 20px;
-  font-style: Arial;
-  margin-left: 20px;
   margin-top: 4px;
-  margin-bottom: 8px;
-  padding-top: 6px;
-  color: #545253;
 }
 
-#copy-text {
+.copy-text {
  font-size: 14px;
- margin-top: 0px;
- margin-left: 20px;
- padding-top: 9px;
- padding-bottom: 40px;
- color: #545253;
- font-family: Arial, Sans-Serif;
+ margin-top: 13px;
 }
 
-#ad {
+.ad {
   font-size: 12px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-  padding-top: 12px;
+  font-weight: bold;
   color: #A0BC57;
-  font-family: Arial, Sans-Serif;
+  margin: 0px 213px 0px 0px;
 }
 
-#link {
+.link {
   font-size: 14px;
   color: #6EB7C2;
-  font-family: Arial;
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
 }
