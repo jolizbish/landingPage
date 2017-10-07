@@ -29,3 +29,22 @@ Send back the following:
 - What tripped you up the most when completing this project?
 --> gradient background & the text overlay on the border of the advertisement div, & getting the box shadow to look right.
 - Any final thoughts or comments.
+
+
+Things still to do:
+-------------------
+- [ ] mobile viewports- 15px padding on body around form
+- [x] regex for the form validation js
+- [ ] background overlays
+- [ ] sketch tutorial to export styles
+- [ ] overriding browser css (normalize css)
+- [ ] no breaks after inputs in html page, padding left, *right*, top,
+- [ ] use margins & paddings properly
+- [ ] research border break issues— can’t predict color depending on size of window.
+- [ ] mobile vs desktop, diff browsers
+- [ ] google input css iphone, ios
+
+and read about:
+---------------
+- [ ] BEM CSS
+- [ ] CSS vendor prefixes
